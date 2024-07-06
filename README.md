@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# mx-demp-app
+I'm trying to recreate but in a simpler form all fuctionality presented here: 
+- [mx-template-dap-nextjs](https://github.com/multiversx/mx-template-dapp-nextjs)
 
 ## Getting Started
 
