@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@multiversx/sdk-core": "^13.2.1",
+    "@multiversx/sdk-dapp": "^2.33.6",
+    "@multiversx/sdk-network-providers": "^2.4.3",
     "axios": "^1.7.2",
     "next": "14.2.4",
     "react": "^18",
