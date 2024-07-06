@@ -18,5 +18,5 @@ This is what I did so fare.
 - npm install @multiversx/sdk-network-providers
 
 Also if possible can we simplify how the app is wired?
-What syould be my next step? 
+What sould be my next step? 
 Lets try to implement a simple login buton and see that it works
