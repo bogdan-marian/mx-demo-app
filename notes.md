@@ -1,5 +1,10 @@
 # notes md
 
+## run options
+```bash
+npm run dev
+```
+
 # question 1
 I'm trying to recreate the simple nextj app 
 I'm referring to this tempalte: https://github.com/multiversx/mx-template-dapp-nextjs
