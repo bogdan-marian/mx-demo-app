@@ -20,3 +20,7 @@ This is what I did so fare.
 Also if possible can we simplify how the app is wired?
 What should be my next step? 
 Lets try to implement a simple login buton and see that it works
+
+# cookbook
+wallet cookbook: https://docs.multiversx.com/sdk-and-tools/sdk-js/sdk-js-cookbook-v13/
+

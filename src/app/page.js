@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from 'react';
-import { ApiNetworkProvider } from '@multiversx/sdk-network-providers/out';
+import { ApiNetworkProvider, WalletProvider } from '@multiversx/sdk-network-providers/out';
 
 
 export default function MxDemoApp() {
@@ -24,6 +24,20 @@ export default function MxDemoApp() {
 
     fetchNetworkStatus();
   }, []);
+
+  const handleLogin = async () => {
+    try {
+      const walletProvider = new WalletProvider('https://devnet-gateway.multiversx.com');
+      const userAddress = await walletProvider.login();
+      if (userAddress) {
+        console.log('Login successful:', userAddress);
+      } else {
+        console.log('Login failed');
+      }
+    } catch (error) {
+      console.error('Error during login:', error);
+    }
+  };
 
   return <section className="bg-white dark:bg-gray-900">
     <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
